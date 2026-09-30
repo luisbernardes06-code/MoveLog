@@ -1,3 +1,4 @@
+
 <!DOCTYPE html>
 <html lang="pt-BR">
 
@@ -5,69 +6,86 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
 
-    <title>MoveLog | Logística</title>
+    <meta name="description"
+        content="MoveLog — Gestão inteligente, produtividade e soluções para operações logísticas.">
+
+    <title>MoveLog | Gestão Logística</title>
 
     <link rel="stylesheet" href="css/style.css">
 </head>
 
 <body>
 
-    <!-- CABEÇALHO -->
+    <!-- ================= CABEÇALHO ================= -->
+
     <header class="cabecalho">
 
         <div class="container cabecalho-conteudo">
 
             <a href="index.html" class="logo">
-                <img src="img/Logo.png" alt="Logo da MoveLog">
+                <img src="img/Logo.png" alt="MoveLog">
             </a>
 
-            <!-- MENU -->
-            <nav class="menu">
+            <nav class="menu" aria-label="Menu principal">
                 <ul>
+
                     <li>
-                        <a href="index.html" class="pagina-atual">Início</a>
+                        <a href="index.html" class="pagina-atual">
+                            Início
+                        </a>
                     </li>
 
                     <li>
-                        <a href="empresa.html">A Empresa</a>
+                        <a href="empresa.html">
+                            A Empresa
+                        </a>
                     </li>
 
                     <li>
-                        <a href="solucoes.html">Soluções</a>
+                        <a href="solucoes.html">
+                            Soluções
+                        </a>
                     </li>
 
                     <li>
-                        <a href="produtividade.html">Produtividade</a>
+                        <a href="produtividade.html">
+                            Produtividade
+                        </a>
                     </li>
 
                     <li>
-                        <a href="insights.html">Operação & Insights</a>
+                        <a href="insights.html">
+                            Operação & Insights
+                        </a>
                     </li>
 
                     <li>
-                        <a href="equipe.html">Nossa Equipe</a>
+                        <a href="equipe.html">
+                            Nossa Equipe
+                        </a>
                     </li>
+
                 </ul>
-            </nav>  
+            </nav>
 
         </div>
 
     </header>
 
 
-    <!-- CONTEÚDO PRINCIPAL -->
     <main>
 
-        <!-- SEÇÃO PRINCIPAL -->
+        <!-- ================= HERO ================= -->
+
         <section class="hero">
 
             <div class="container hero-conteudo">
 
                 <div class="hero-texto">
 
-                    <p class="texto-destaque">
+                    <span class="texto-destaque">
                         GESTÃO • PRODUTIVIDADE • LOGÍSTICA
-                    </p>
+                    </span>
 
                     <h1>
                         Gestão inteligente para operações que não podem parar.
@@ -78,47 +96,63 @@
                         de equipes, atividades, metas e indicadores em operações logísticas.
                     </p>
 
-                    <a href="solucoes.html" class="botao">
-                        Conheça nossas soluções
-                    </a>
+                    <div class="hero-botoes">
+
+                        <a href="solucoes.html" class="botao">
+                            Conheça nossas soluções
+                        
+                        </a>
+
+            
+
+                    </div>
 
                 </div>
 
 
                 <div class="hero-imagem">
 
-                    <figure>
-                        <img src="img/movimentação.jpeg"
-                             alt="Operação logística com movimentação de produtos">
-                    </figure>
+                    <div class="imagem-overlay"></div>
 
-                </div>
+                    <img src="img/movimentação.jpeg"
+                        alt="Operação logística com movimentação de produtos">
+
+                   
 
             </div>
 
         </section>
 
 
-        <!-- APRESENTAÇÃO -->
+        <!-- ================= APRESENTAÇÃO ================= -->
+
         <section class="apresentacao">
 
-            <div class="container">
+            <div class="container apresentacao-conteudo">
 
                 <div class="titulo-secao">
 
-                    <p class="texto-destaque">
+                    <span class="texto-destaque">
                         SOBRE A MOVELOG
-                    </p>
+                    </span>
 
                     <h2>
                         Organização para transformar dados em resultados.
                     </h2>
 
+                </div>
+
+                <div class="apresentacao-texto">
+
                     <p>
                         Em operações logísticas, diferentes equipes, setores,
                         atividades e turnos precisam trabalhar de forma organizada.
+                    </p>
+
+                    <p>
                         A MoveLog propõe uma maneira simples de acompanhar essas
-                        informações e facilitar a visualização dos resultados.
+                        informações, facilitando a visualização da produtividade,
+                        das metas e dos resultados da operação.
                     </p>
 
                 </div>
@@ -128,31 +162,42 @@
         </section>
 
 
-        <!-- PRINCIPAIS ÁREAS -->
+        <!-- ================= ÁREAS ================= -->
+
         <section class="areas">
 
             <div class="container">
 
                 <div class="titulo-secao centralizado">
 
-                    <p class="texto-destaque">
+                    <span class="texto-destaque">
                         NOSSAS ÁREAS
-                    </p>
+                    </span>
 
                     <h2>
                         Acompanhe cada etapa da operação.
                     </h2>
+
+                    <p>
+                        Informações organizadas para facilitar a gestão
+                        e o acompanhamento da operação.
+                    </p>
 
                 </div>
 
 
                 <div class="cards">
 
-                    <!-- CARD 1 -->
+                    <!-- CARD 01 -->
+
                     <article class="card">
 
-                        <div class="card-numero">
+                        <span class="card-numero">
                             01
+                        </span>
+
+                        <div class="card-icone">
+                            👥
                         </div>
 
                         <h3>
@@ -165,17 +210,23 @@
                         </p>
 
                         <a href="empresa.html">
-                            Saiba mais →
+                            Saiba mais
+                            <span>→</span>
                         </a>
 
                     </article>
 
 
-                    <!-- CARD 2 -->
-                    <article class="card">
+                    <!-- CARD 02 -->
 
-                        <div class="card-numero">
+                    <article class="card card-destaque">
+
+                        <span class="card-numero">
                             02
+                        </span>
+
+                        <div class="card-icone">
+                            📊
                         </div>
 
                         <h3>
@@ -188,17 +239,23 @@
                         </p>
 
                         <a href="produtividade.html">
-                            Saiba mais →
+                            Saiba mais
+                            <span>→</span>
                         </a>
 
                     </article>
 
 
-                    <!-- CARD 3 -->
+                    <!-- CARD 03 -->
+
                     <article class="card">
 
-                        <div class="card-numero">
+                        <span class="card-numero">
                             03
+                        </span>
+
+                        <div class="card-icone">
+                            📈
                         </div>
 
                         <h3>
@@ -211,7 +268,8 @@
                         </p>
 
                         <a href="produtividade.html">
-                            Saiba mais →
+                            Saiba mais
+                            <span>→</span>
                         </a>
 
                     </article>
@@ -223,16 +281,17 @@
         </section>
 
 
-        <!-- COMO FUNCIONA -->
+        <!-- ================= FLUXO ================= -->
+
         <section class="fluxo">
 
-            <div class="container fluxo-conteudo">
+            <div class="container">
 
-                <div class="fluxo-texto">
+                <div class="fluxo-cabecalho">
 
-                    <p class="texto-destaque">
+                    <span class="texto-destaque">
                         COMO FUNCIONA
-                    </p>
+                    </span>
 
                     <h2>
                         Do trabalho realizado ao resultado.
@@ -250,35 +309,19 @@
 
                     <div class="etapa">
 
-                        <span>01</span>
+                        <span class="etapa-numero">
+                            01
+                        </span>
 
-                        <h3>
-                            Equipes
-                        </h3>
+                        <div>
+                            <h3>
+                                Equipes
+                            </h3>
 
-                        <p>
-                            Funcionários organizados por setores e turnos.
-                        </p>
-
-                    </div>
-
-
-                    <div class="seta">
-                        →
-                    </div>
-
-
-                    <div class="etapa">
-
-                        <span>02</span>
-
-                        <h3>
-                            Atividades
-                        </h3>
-
-                        <p>
-                            Registro das atividades realizadas durante a operação.
-                        </p>
+                            <p>
+                                Funcionários organizados por setores e turnos.
+                            </p>
+                        </div>
 
                     </div>
 
@@ -290,15 +333,43 @@
 
                     <div class="etapa">
 
-                        <span>03</span>
+                        <span class="etapa-numero">
+                            02
+                        </span>
 
-                        <h3>
-                            Resultados
-                        </h3>
+                        <div>
+                            <h3>
+                                Atividades
+                            </h3>
 
-                        <p>
-                            Dados utilizados para acompanhar metas e indicadores.
-                        </p>
+                            <p>
+                                Registro das atividades realizadas durante a operação.
+                            </p>
+                        </div>
+
+                    </div>
+
+
+                    <div class="seta">
+                        →
+                    </div>
+
+
+                    <div class="etapa">
+
+                        <span class="etapa-numero">
+                            03
+                        </span>
+
+                        <div>
+                            <h3>
+                                Resultados
+                            </h3>
+
+                            <p>
+                                Dados utilizados para acompanhar metas e indicadores.
+                            </p>
+                        </div>
 
                     </div>
 
@@ -309,16 +380,17 @@
         </section>
 
 
-        <!-- CHAMADA PARA SOLUÇÕES -->
+        <!-- ================= CHAMADA ================= -->
+
         <section class="chamada">
 
             <div class="container chamada-conteudo">
 
                 <div>
 
-                    <p class="texto-destaque">
+                    <span class="texto-destaque">
                         MOVA SUA OPERAÇÃO
-                    </p>
+                    </span>
 
                     <h2>
                         Mais organização para acompanhar melhores resultados.
@@ -328,6 +400,7 @@
 
                 <a href="solucoes.html" class="botao botao-secundario">
                     Conheça as soluções
+                    <span>→</span>
                 </a>
 
             </div>
@@ -337,14 +410,17 @@
     </main>
 
 
-    <!-- RODAPÉ -->
+    <!-- ================= RODAPÉ ================= -->
+
     <footer class="rodape">
 
         <div class="container rodape-conteudo">
 
             <div class="rodape-marca">
 
-                <img src="img/logo.png" alt="MoveLog Logística">
+                <a href="index.html">
+                    <img src="img/Logo.png" alt="MoveLog">
+                </a>
 
                 <p>
                     Gestão inteligente para operações logísticas.
@@ -360,6 +436,7 @@
                 </h3>
 
                 <ul>
+
                     <li>
                         <a href="index.html">Início</a>
                     </li>
@@ -383,6 +460,7 @@
                     <li>
                         <a href="equipe.html">Nossa Equipe</a>
                     </li>
+
                 </ul>
 
             </div>
@@ -392,18 +470,22 @@
 
         <div class="rodape-final">
 
-            <p>
-                &copy; 2026 MoveLog — Projeto acadêmico.
-            </p>
+            <div class="container">
+
+                <p>
+                    &copy; 2026 MoveLog — Projeto acadêmico.
+                </p>
+
+            </div>
 
         </div>
 
     </footer>
 
 
-    <!-- JAVASCRIPT -->
     <script src="js/script.js"></script>
 
 </body>
 
 </html>
+```
